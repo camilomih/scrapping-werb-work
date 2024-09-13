@@ -8,7 +8,7 @@ import time
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 # Abrir la página de login
-driver.get("https://acd.na3.livevox.com/Northland_Goup/agentlogin")
+driver.get("https://host-a-monitorear:4200")
 
 # Esperar un poco para que la página cargue (puedes ajustar el tiempo si es necesario)
 time.sleep(2)
